@@ -1,0 +1,183 @@
+
+/*wrapper style--*/
+.landingwrapper {
+    width: 100%;
+    max-width: 76rem;
+    margin: auto;
+}
+
+/*image style--*/
+.landingimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 5rem;
+}
+
+/*--p style--*/
+.lp {
+    color: palevioletred;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+.nav li {
+    display: inline-block;
+    padding-left: 10rem;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(135, 135, 214);
+    padding: 1rem;
+    background-color: black;
+
+}
+
+.nav li a:hover {
+    text-decoration: none;
+    background-color: rgb(135, 135, 214);
+    color: black;
+
+}
+
+/*--hero image fade in-out animation--*/
+.limage {
+    opacity: 50%;
+}
+
+/*--hero image fade in-out animation--*/
+.limage:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+}
+
+/*--image shakes in animation--*/
+.lpics:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/*--image shakes in animation--*/
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.lintro {
+    text-align: center;
+    margin-bottom: 7rem;
+    color: #640080;
+}
+
+/*--text  moves to right side in transition--*/
+.lintro {
+    width: 110px;
+    height: 200px;
+    background: rgb(138, 236, 239);
+    transition: width 3s;
+}
+
+/*--text moves to right side in transition--*/
+.lintro:hover {
+    width: 400px;
+}
+
+/*--button size decreases in transition--*/
+#lbutton {
+    width: 100px;
+    height: 100px;
+    background: rgb(203, 107, 186);
+    transition: width 2s, height 4s;
+}
+
+/*--button size decreases in transition--*/
+#lbutton:hover {
+    width: 50px;
+    height: 50px;
+}
+
+
+.lh1 {
+    text-align: center;
+    color: peru;
+}
+
+.lwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lwork img {
+    max-width: 20rem;
+    height: auto;
+}
+
+.lpics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lbuttonpart {
+    display: flex;
+    justify-content: center;
+}
+
+.lbutton {
+    margin-left: 1rem;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/412668e587.js" crossorigin="anonymous"></script>
+    <title>Nirai's site</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- ul stands for unordered list and will give one bullet point-->
+                <li><a href="about.html">About</a></li>
+                <!-- li stands for list item and usually belong in a ul or ol-->
+                <!-- a tag defines a hyperlink, used to link from one page to another-->
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <br>
+        <h1>GET IN TOUCH!</h1>
+        <hr>
+        <br>
+        <p> Enter your full name, email id and message </p>
+
+        <!--form tag is used to collect user input.-->
+        <form action="mailto:raja0096@algonquinlive.com" method="post" enctype="text/plain" name="contact form">
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div>
+                <label for="email"></label>email id:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+        <hr>
+        <br>
+
+        <div class="media">
+            <h3>SOCIAL MEDIA</h3>
+        </div>
+
+        <div class="smedia">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+
+    </main>
+    <!--footer-->
+    <footer>
+        <p class="para2"> Copyright &copy;2023 NR.</p>
+    </footer>
+
+</body>
+
+</html>

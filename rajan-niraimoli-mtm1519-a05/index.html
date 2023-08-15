@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Declares what type of document the browser is looking at-->
+<html>
+<!-- Opening html tag, the html tags should contain the entire website (except doctype)-->
+<!--HEAD START-->
+
+<head>
+    <!-- Head tag holds metadata or data about the website for the browser-->
+    <meta charset="utf-8">
+    <!-- meta charset describes the type of encoding to be used. utf-8 is typically what we'll use-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- meta viewport helps make the website responsive to screen size-->
+
+    <!--LINKs-->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Landing page of my cool portfolio</title>
+    <!-- title provides the name of your website on your tab-->
+</head>
+<!--HEAD END-->
+
+<body>
+    <!-- all of the website content should be within the body tags -->
+    <header>
+        <!--header belongs at the top of the website, tyically contains the nav. There one header per html page-->
+    </header>
+<div class="position">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a class="marginchild" href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+    <!-- <nav class="nav">
+        
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+           
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>-->
+    </header>
+    <main>
+        <!-- main usually contains the main content of the website, there can only be one main per html page-->
+        <div class="landingwrapper">
+            <!-- make sure src is src not scr -->
+            <div class="limage">
+                <img class="landingimg" src="img/Aesthetic me.JPG" alt="Photo of me">
+                <!--img tag is for adding images. src attribute is needed to link images. should always include an alt attribute-->
+            </div>
+            <section class="content">
+                <section class="lintro">
+                    <!--em tag is used to emphasis a certain text-->
+                    <h2> <em>Hello, Namaste, Nirai here...</em> </h2>
+                    <h3> <em>Welcome to my portfolio!</em> </h3>
+                </section>
+                <br>
+                <br>
+                <!--The <br> tag inserts a single line break.-->
+                <hr>
+                <!--h1 is a heading tag, it is usually the largest-->
+                
+    </main>
+    <footer>
+        <!--footer contains stuff that goes at the bottom of your site, there can only be one footer per html page-->
+        <p class="para2"> Copyright &copy;2023 NR.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
